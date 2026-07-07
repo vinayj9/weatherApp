@@ -1,12 +1,11 @@
 // Custom modules
-import { WEATHER_API } from "@/config"
 
 // Hooks
-import { useContext, useState } from "react"
+import { useContext } from "react"
 
 // Components
 import { Button } from "@/components/ui/button"
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuRadioGroup, DropdownMenuRadioItem } from "@/components/ui/dropdown-menu"
+import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuRadioGroup, DropdownMenuRadioItem } from "@/components/ui/dropdown-menu"
 import{ WeatherProviderContext } from "@/components/WeatherProvider"
 import type { WeatherUnitType } from "@/types"
 // Types
